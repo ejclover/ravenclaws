@@ -289,3 +289,7 @@ html.hidescrollbar body{
     visibility: hidden;
     transition: opacity 1s, visibility 0s 1s;
 }
+
+.jumbotron{
+  background-color: transparent;
+}

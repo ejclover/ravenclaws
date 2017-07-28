@@ -100,4 +100,22 @@ document.getElementById('pageloader').style.display = 'none'
 window.addEventListener("beforeunload", function () {
   document.body.classList.add("animate-out");
 });
+
+
+
+
+function myTimer(){
+  var points = document.getElementById("house").innerHTML;
+  var points2 = document.getElementById("house").innerHTML;
+  var min = Math.ceil(1000);
+  var max = Math.floor(3000);
+  var min1 = Math.ceil(100);
+  var max1 = Math.floor(300);
+  var bad =  Math.floor(Math.random() * (max1 - min1)) + min1;
+  var val = Math.floor(Math.random() * (max - min)) + min; //The maximum is exclusive and the minimum is inclusive
+ document.getElementById("house").innerHTML =  parseInt(points,10)  + val;
+ 
+}
+setInterval(myTimer, 1000);
 });
+
