@@ -1,0 +1,19 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+        <div class="jumbotron">
+            <div style="height:100%; width:50%: float:left:">
+                <img class="thumbnail"  src="https://media.giphy.com/media/AisOYaOZdrS1i/giphy.gif" style="margin:0">
+            </div>
+         
+            <div class="" style="height: 100%; width:20%; float: right;">
+                <div>
+                    <h1 id="house">
+                        8084376
+                        
+                    </h1>
+        
+            </div>
+        </div>
+    </div>
+ </div>
